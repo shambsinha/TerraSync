@@ -1,0 +1,37 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+backend/venv/
+backend/static/
+backend/media/
+
+# Node / React
+node_modules/
+dist/
+dist-ssr
+*.local
+frontend/.env
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TerraSync Temp Files
+sap_test.csv
+utility_fail.csv
+utility_fail_v2.csv
