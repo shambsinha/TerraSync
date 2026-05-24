@@ -22,7 +22,6 @@ urlpatterns = [
     path('', root_view),
     path('admin/', admin.site.urls),
     path('api/records/', NormalizedRecordListView.as_view(), name='record-list'),
-# ... existing paths ...
     path('api/records/<uuid:pk>/', NormalizedRecordUpdateView.as_view(), name='record-update'),
     path('api/ingest/sap/', SAPUploadView.as_view(), name='sap-upload'),
     path('api/ingest/utility/', UtilityUploadView.as_view(), name='utility-upload'),
