@@ -3,7 +3,7 @@ import { DataTable } from './DataTable';
 import { RecordDrawer } from './RecordDrawer';
 import { NormalizedRecord } from '../types';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://terrasync-backend-nsul.onrender.com/api';
 
 export const Dashboard: React.FC = () => {
   const [records, setRecords] = useState<NormalizedRecord[]>([]);
